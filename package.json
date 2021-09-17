@@ -1,0 +1,19 @@
+{
+	"name": "starter01-node-ts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./src/index.ts",
+	"scripts": {
+		"start": "npm run dev",
+		"dev": "nodemon -e ts,tsx --exec ts-node ./src/index.ts",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.2",
+		"ts-node": "^8.6.2",
+		"typescript": "^3.7.5"
+	}
+}
